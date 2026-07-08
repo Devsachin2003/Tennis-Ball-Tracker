@@ -1,0 +1,9 @@
+torch>=2.2.0
+torchvision>=0.17.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+ultralytics>=8.1.0
+lap>=0.5.12
+scipy>=1.12.0
+pandas>=2.2.0
+python-dotenv

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checking and linting
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and OS files
+.idea/
+.vscode/
+.DS_Store
+
+# ML experiment artifacts
+runs/
+wandb/
+mlruns/
+processed_data/
+
+# Local test data and model weights
+*.pt
+test_data/*.mp4
+test_data/*.mkv
+test_data/*.pt
+models/*.mp4
+models/*.mkv
+models/*.pt
